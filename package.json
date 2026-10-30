@@ -1,0 +1,27 @@
+{
+  "name": "visionpulse-ai",
+  "version": "1.0.0",
+  "description": "VisionPulse AI — Enterprise Computer Vision & Visual Intelligence Full-Stack Platform",
+  "scripts": {
+    "dev:client": "npm.cmd --prefix client run dev",
+    "dev:server": "npm.cmd --prefix server run dev",
+    "dev:backend": "npm.cmd --prefix backend run dev",
+    "start:backend": "npm.cmd --prefix backend start",
+    "start:server": "npm.cmd --prefix server start",
+    "build:client": "npm.cmd --prefix client run build",
+    "init:supabase": "node backend/src/config/initDb.js"
+  },
+  "keywords": [
+    "computer-vision",
+    "visual-intelligence",
+    "gemini-vision",
+    "supabase",
+    "render",
+    "vercel",
+    "react",
+    "nodejs",
+    "express"
+  ],
+  "author": "Antigravity Engineering",
+  "license": "MIT"
+}
